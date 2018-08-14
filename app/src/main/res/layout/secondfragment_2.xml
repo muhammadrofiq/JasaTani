@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/text_secfrag2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Tidak ada Order Aktif"
+        android:gravity="center"
+        android:textSize="14dp"/>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list_ongoingorder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="FRAG 2"
+        android:gravity="center"/>
+
+
+</LinearLayout>

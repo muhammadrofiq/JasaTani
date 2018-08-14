@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.root.g_track">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Login"
+            android:label="Login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Register"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Garasi"
+            android:label="Garasi" />
+        <activity
+            android:name=".Tambahgarasi"
+            android:label="Tambah Garasi" />
+        <activity
+            android:name=".testdrawer"
+            android:label="@string/title_activity_testdrawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Detailalat" />
+        <activity
+            android:name=".Main_activity"
+            android:label="@string/title_activity_main_activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <service android:name=".MyFirebaseMessageingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".Profileinput"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        >
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Profilemapspick"
+            android:label="@string/title_activity_profilemapspick" />
+        <activity android:name=".Tambahorder" />
+        <activity
+            android:name=".Ordermapspick"
+            android:label="@string/title_activity_ordermapspick" />
+        <activity android:name=".Detailorder" />
+        <activity android:name=".Editalat"></activity>
+    </application>
+
+</manifest>

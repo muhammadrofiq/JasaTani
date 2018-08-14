@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Ordermapspick" />
+
+    <TextView
+        android:id="@+id/orderinput_alamat_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ketuk peta untuk memilih alamat"
+        android:textSize="14sp"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:layout_marginBottom="80dp"/>
+
+    <android.support.v7.widget.CardView
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_gravity="bottom|center"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_kecil_height"
+        android:id="@+id/orderinput_alamat_selesai"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="35dp"
+        map:cardBackgroundColor="@color/colorPrimary"
+        map:cardCornerRadius="@dimen/button_kecil_radius"
+        map:cardElevation="@dimen/button_kecil_shade" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:minWidth="@dimen/button_kecil_min_width"
+                android:layout_marginRight="@dimen/button_kecil_margin"
+                android:layout_marginLeft="@dimen/button_kecil_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="@dimen/button_text"
+                android:text="SIMPAN"  />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+</FrameLayout>

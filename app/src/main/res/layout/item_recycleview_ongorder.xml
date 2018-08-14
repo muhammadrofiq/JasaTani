@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:layout_margin="7dp"
+    android:id="@+id/item_ongoing">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:orientation="vertical">
+        <android.support.v7.widget.CardView
+            app:cardElevation="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/banner_tanam"
+            android:id="@+id/itemonorder_banner">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="15dp">
+
+                    <TextView
+                        android:id="@+id/list_order_item_headername"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center|left"
+                        android:text="Dijadwalkan"
+                        android:textColor="#FFFF"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginRight="8dp"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|right">
+                    <TextView
+                        android:id="@+id/itemonorder_tanggal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textSize="14dp"
+                        android:gravity="center|right"
+                        android:text="12 - des - 2018"
+                        android:textColor="#FFFF"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="2dp">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/itemonorder_alamat"
+                    android:layout_marginTop="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="17dp"
+                    android:paddingBottom="4dp"
+                    android:textSize="14dp"
+                    android:gravity="center|left"
+                    android:text="Jombang, Cilegon , Banten"
+                    android:textColor="@color/text_gray1"/>
+                <TextView
+                    android:id="@+id/itemonorder_nama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="17dp"
+                    android:paddingBottom="4dp"
+                    android:textSize="14dp"
+                    android:gravity="center|left"
+                    android:text="Muhammad rofiq"
+                    android:textColor="@color/text_gray1"/>
+                <TextView
+                    android:id="@+id/itemonorder_namaalat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="17dp"
+                    android:paddingBottom="4dp"
+                    android:textSize="14dp"
+                    android:gravity="center|left"
+                    android:text="Kubota super tani"
+                    android:textColor="@color/text_gray1"/>
+                <TextView
+                    android:id="@+id/itemonorder_luaslahan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="17dp"
+                    android:paddingBottom="2dp"
+                    android:textSize="14dp"
+                    android:gravity="center|left"
+                    android:text="100    Ha"
+                    android:textColor="@color/text_gray1"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:layout_weight="2"
+                android:gravity="center|right"
+                android:layout_marginRight="16dp">
+                <ImageView
+                    android:id="@+id/itemonorder_call"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_phone_gray"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</android.support.v7.widget.CardView>

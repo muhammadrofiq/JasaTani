@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#006064</color>
+    <color name="colorPrimaryDark">#00363a</color>
+    <color name="colorPrimaryLight">#428e92</color>
+    <color name="colorAccent">#64dd17</color>
+    <color name="colorAccentDark">#32cb00</color>
+    <color name="colorAccentLight">#b0ff57</color>
+    <color name="colorTextOnPrimary">#e8f5e9</color>
+    <color name="colorTextOnAccent">#1a237e</color>
+    <color name="colorlist_panen">#5337ca</color>
+    <color name="colorlist_tanam">#1dd42f</color>
+    <color name="colorlist_truck">#ffd30c</color>
+    <color name="merah">#d91f1c</color>
+    <color name="text_gray1">#2b2b2b</color>
+    <color name="banner_pilihalat">#41de50</color>
+    <color name="banner_panen">#6445e9</color>
+    <color name="banner_tanam">#37df48</color>
+    <color name="banner_truck">#ffeb3b</color>
+    <color name="text_white_1">#f2f2f2</color>
+    <color name="text_white_2">#e1e1e1</color>
+    <color name="soft_gray">#cccccc</color>
+
+
+</resources>

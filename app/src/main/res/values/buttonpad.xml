@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_kecil_margin">16dp</dimen>
+    <dimen name="button_kecil_min_width">64dp</dimen>
+    <dimen name="button_kecil_height">36dp</dimen>
+    <dimen name="button_kecil_shade">2dp</dimen>
+    <dimen name="button_kecil_radius">2dp</dimen>
+    <dimen name="button_text">14sp</dimen>
+</resources>
