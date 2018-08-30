@@ -1,6 +1,7 @@
 # JASA-TANI
-![N|Solid](https://raw.githubusercontent.com/muhammadrofiq/JasaTani/master/app/testlogo.png)
-
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/muhammadrofiq/JasaTani/master/app/phone.png">
+</p>
 
 
 JASA-TANI Merupakan aplikasi penyewaan traktor pertanian berbasis android. Aplikasi ini dikembangkan untuk memudahkan petani dalam mencari penyedia jasa peminjaman alat serta memudahkan penyedia jasa dalam memenejemen usahanya. Aplikasi ini dibagi menjadi dua bagian, yaitu aplikasi untuk petani dan penyedia jasa. Namun saat ini hanya tersedia aplikasi penyedia saja. Berikut usercase yang kami buat pada aplikasi ini : 
