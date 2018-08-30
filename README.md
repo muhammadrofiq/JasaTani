@@ -10,8 +10,7 @@ JASA-TANI Merupakan aplikasi penyewaan traktor pertanian berbasis android. Aplik
   <img  src="https://raw.githubusercontent.com/muhammadrofiq/JasaTani/master/app/usecase-jasatani.png">
 </p>
 
-  - Kami memberikan model haar cascade dalam bentuk XML yang dihasilkan melalui process pelatihan yang cukup lama
-  - Model KNN yang kami berikan hanya model sederhana yang kami latih menggunakan beberapa tipe font plat nomor. 
+  - Aplikasi ini dikembangkan menggunakan Android studio dan Firebase
 
 # The Features!
   - pengguna dapat mengatur garasi. dengan kata lain pengguna dapat menambah, menghapus dan memperbarui data alat yang ia miliki.
